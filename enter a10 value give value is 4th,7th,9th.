@@ -1,0 +1,15 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+int a[10];
+
+printf("Enter a no:\n");
+for(int i=0;i<10;i++)
+scanf("%d",&a[i]);
+printf("4 , 7 , 9 number are listed below\n");
+
+printf("%d\t%d\t%d",a[4],a[7],a[9]);
+
+    return 0;
+}
